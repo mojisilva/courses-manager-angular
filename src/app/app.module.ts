@@ -1,3 +1,4 @@
+import { ReplacePipe } from './pipe/replace.pipe';
 import { StarComponent } from './star/star.component';
 import { CourseListComponent } from './courses/couse-list.component';
 
@@ -12,6 +13,7 @@ import { AppComponent } from './app.component';
     AppComponent,
     CourseListComponent,
     StarComponent,
+    ReplacePipe,
   ],
   imports: [
     BrowserModule,
